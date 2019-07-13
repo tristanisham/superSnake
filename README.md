@@ -1,2 +1,2 @@
 # superSnake
-Snake but wiht more shit
+Snake but with more shit
