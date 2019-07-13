@@ -3,6 +3,9 @@ from random import randint
 import pygame
 import time
 
+# tutorial: https://pythonspot.com/snake-with-pygame/
+
+
 class Apple:
     x = 0
     y = 0
@@ -102,10 +105,10 @@ class App:
         pygame.init()
         self._display_surf = pygame.display.set_mode((self.windowWidth,self.windowHeight), pygame.HWSURFACE)
 
-        pygame.display.set_caption('Pygame pythonspot.com example')
+        pygame.display.set_caption('Super Snake - Beta 0000.00001')
         self._running = True
         self._image_surf = pygame.image.load("block.jpg").convert()
-        self._apple_surf = pygame.image.load("block.jpg").convert()
+        self._apple_surf = pygame.image.load("red.jpg").convert()
 
     def on_event(self, event):
         if event.type == QUIT:
